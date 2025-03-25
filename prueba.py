@@ -31,3 +31,48 @@ print(len(lista))
 #TUPLAS
 numeros4=(45,68,636,6,5,3)
 
+print(numeros4[0])
+
+#Diccionarios
+diccionario={
+    "nombre":"Kevin",
+    "celular":654023654,
+    "notificacion":True,
+    "carrera":"Ingenieria de Sistemas"
+}
+print(diccionario["nombre"])
+
+print(diccionario.get("profesion","Ingeniero"))
+
+diccionario["carrera"]="aavvas"
+print(diccionario)
+
+#bucles
+#Bucles iterativos fo
+for iterador in range(11):
+    print(iterador)
+
+#Eje1. Mostra la tabla del 8 con un bucle for
+
+for a in range(11):
+    print(f"{a}x8={a*8}")
+
+#Mostrar la tabla de multiplicar 
+# de cualquier numero ingresado por teclado
+valorTabla=int(input("que tabla de mutiplicar deseea?: "))
+for a in range(11):
+    print(f"{a}x{valorTabla}={a*valorTabla}")
+#CVALORES POR TECLAS input
+nombreCompleto=input("Ingrese su nombre: ")
+
+#Funciones def
+#Funciones sin parametros
+def saludar():
+    print("Hola bienvenidos")
+
+#Mostrar una funcion
+saludar()
+#funciones con parametros
+def sumar(a,b):
+    return a+b
+print(sumar(5,8))
