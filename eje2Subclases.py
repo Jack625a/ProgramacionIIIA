@@ -31,9 +31,18 @@ class Perro(AnimalesDomesticos):
         #super().comer(comida)
         print(f"{self.nombre} esta comiendo {comida}") 
 
+    def pasear(self,correa):
+        if correa==True:
+            print(f"{self.nombre} esta paseando con su dueño")
+        else:
+            print(f"{self.nombre} no puede salir porque no tiene correa")
 
 
 perro1=Perro("Rex","Cafe","Domestico",50,12,"Criollo")
 gato=AnimalesDomesticos("Luna","Blanco","Domestico",12,7)
 gato.comer()
 perro1.comer("carne con arroz")
+gato.pasear()
+perro1.pasear(True)
+
+#POLIMORFISMO: ACCION CUANDO SE HEREDA UN METODO DE UN CLASE PADRE A UNA SUBCLASE DONDE SE MODIFICA LAS ESTRUCTURA DE EL METODO
