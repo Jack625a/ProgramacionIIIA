@@ -13,7 +13,6 @@ class Usuario:
         self.nombre=nombre
         self.saldo=saldo
         self.ci=ci
-
     #Paso 3. Definir las acciones de la clase
     def verSaldo(self):
         print(f"Cuenta: {self.nombre} su saldo actual es: {self.saldo} Bs")
