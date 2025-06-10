@@ -1,0 +1,2 @@
+token: patqfhmbQOgQuC1ST.7b53b75e44183876e61d01c0b37c3b6c46cfe35ff51c4a680cfc9ad5677c26bb
+idBaseDatos: appGmtdw8sEqqpZgo
